@@ -1,0 +1,204 @@
+/*Cntr+f пошук тексту*/
+
+
+body{
+	margin: 0px;
+	width: 100%;
+	padding: 0;
+	font-size: 15px;
+}
+
+*,
+*:after,
+*:before{
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+
+
+.tests{
+	position: absolute;
+	top:20%;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+
+.tests:hover{
+	background-color: blue;
+}
+
+
+
+
+/*BackgroundFon*/
+
+.backgroundFon{
+	height: 100vh;
+	display: flex;
+	background: url(../Img/Fon3.jpg) center no-repeat /*fixed*/;
+	background-size: cover; 
+	-webkit-background-size: cover;
+}
+
+
+/*Main*/
+
+.main{
+	position: relative;
+	width: 100%;
+}
+
+/*Main_BackgroundImg*/
+
+.main_BackgroundImg{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -10;
+}
+
+.main_BackgroundImg_Bloс{
+	width: 100%;
+	height: 25%;
+	background: url(../Img/Окооо.png) center no-repeat;
+	background-size: cover; 
+	-webkit-background-size: cover;
+}
+
+/*Main_content*/
+
+.main_content{
+	width: 100%;
+	max-width: 1000px;
+	background-color: #fff;
+	margin: 0 auto;
+}
+
+.main_content_Bloсs{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 100%;
+
+	padding: 50px;
+}
+
+.main_content_Blocs4{
+	width: 50%;
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+ }
+
+.main_content_Blocs4:nth-child(1){
+	border-right: 1px #000 solid;
+	border-bottom: 1px #000 solid;
+}
+
+.main_content_Blocs4:nth-child(2){
+	border-left: 1px #000 solid;
+	border-bottom: 1px #000 solid;
+}
+
+.main_content_Blocs4:nth-child(3){
+	border-right: 1px #000 solid;
+	border-top: 1px #000 solid;
+}
+
+.main_content_Blocs4:nth-child(4){
+	border-left: 1px #000 solid;
+	border-top: 1px #000 solid;
+}
+
+.main_content_Blocs4-icon{
+	width: 35%;
+	height: 20vh;
+	margin-bottom: 15px;
+}
+
+.IconElementFire{
+	background: url(../Img/unnamed.gif) center no-repeat;
+	background-size: cover; 
+	-webkit-background-size: cover;
+}
+
+.IconElementWater{
+	background: url(../Img/lll.jpg) center no-repeat;
+	background-size: cover; 
+	-webkit-background-size: cover;
+}
+
+.IconElementLand{
+	background: url(../Img/Fon3.jpg) center no-repeat;
+	background-size: cover; 
+	-webkit-background-size: cover;
+}
+
+.IconElementAir{
+	background: url(../Img/Ава.png) center no-repeat;
+	background-size: cover; 
+	-webkit-background-size: cover;
+}
+
+.main_content_Blocs4-h1{
+	font-size: 30px;
+	margin-bottom: 5px;
+	font-weight: 700;
+	width: 75%;
+	text-align: center;
+}
+
+.main_content_Blocs4-p{
+	width: 75%;
+	text-align: center;
+	font-size: 18px;
+}
+
+/*Main_Content_Informasion*/
+.main_content_informasion{
+	width: 100%;
+	padding: 0 50px;
+	margin:0 auto;
+}
+
+.main_content_informasion::after{
+	content: '';
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.main_content_informasion-photo{
+	float: left;
+	width: 50%;
+}
+
+.main_content_informasion-photo img{
+	width: 100%;
+	max-height: 75em;
+	padding: 0 20px 0px 0;
+}
+
+.main_content_informasion-h1{
+	text-align: center;
+	font-weight: 700;
+	font-size: 35px;
+	margin-bottom: 0.5em;
+}
+
+.main_content_informasion-p{
+	font-size: 18px;
+}
